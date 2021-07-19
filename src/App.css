@@ -1,0 +1,86 @@
+
+body{
+    background: linear-gradient(#ffb75e,#ed8f03) no-repeat;
+    background-size: cover;
+    height:88.5vh;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+input[type="text"]{
+    padding: 9px 10px;
+    outline: none;
+    border: none;
+    width: 230px;
+    border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    -ms-border-radius: 3px 0 0 3px;
+    -o-border-radius: 3px 0 0 3px;
+}
+button{
+    padding: 8px;
+    background: none;
+    outline: none;
+    border: none;;
+    background: #fff;
+    border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+}
+button i{
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff9900;
+    padding: 2px;
+}
+
+.select select{
+    padding: 9px 10px;
+    border: none;
+    outline: none;
+    margin-left: 30px;
+    cursor: pointer;
+}
+li.todo-item {
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.todo-list{
+    margin-top: 80px;
+}
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.todo li.todo-item{
+    padding: 5px 10px;
+    width:180px;
+}
+.todo i{
+    color:#fff;
+    padding: 5px;
+    cursor: pointer;
+}
+.todo button{
+    padding: 2px;
+}
+.todo .complete-btn i{
+    background-color: #1d8f98;
+}
+.todo .trash-btn i{
+    background-color: #ff7203;;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: .5;
+}
